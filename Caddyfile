@@ -1,0 +1,7 @@
+http://localhost:8080
+
+root * templates
+file_server browse
+templates {
+	mime "text/html" "text/plain" "image/svg"
+}
