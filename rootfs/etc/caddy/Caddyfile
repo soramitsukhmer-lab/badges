@@ -1,6 +1,6 @@
-http://localhost:8080
+http://:8080
 
-root * templates
+root * /public
 file_server browse
 templates {
 	mime "text/html" "text/plain" "image/svg"
