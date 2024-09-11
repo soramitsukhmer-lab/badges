@@ -6,6 +6,6 @@ templates {
 	mime "text/html" "text/plain" "image/svg"
 }
 
-headers /projects/* {
+header /projects/* {
 	Content-Type image/svg+xml charset=utf-8
 }
