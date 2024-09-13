@@ -5,7 +5,6 @@ file_server browse
 templates {
 	mime "text/html" "text/plain" "image/svg"
 }
-
 route {
-	header /projects/* Content-Type "image/svg+xml charset=utf-8"
+	header /svg/* Content-Type "image/svg+xml charset=utf-8"
 }
